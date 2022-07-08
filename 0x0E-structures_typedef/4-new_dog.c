@@ -32,7 +32,7 @@ p_dog->name = malloc(lname + 1);
 p_dog->owner = malloc(lowner + 1);
 
 if (!(p_dog->name) || !(p_dog->owner))
-    {
+{
 free(p_dog->owner);
 free(p_dog->name);
 free(p_dog);
